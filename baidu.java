@@ -16,7 +16,7 @@ public class baidu {
 
     @Test
     public void getLatitude() {
-        String inputaddress = "南京 南京航空大学将军路校区";
+        String inputaddress = "南京";
         try {
             // 1、将地址转换成UTF_8
             String address = URLEncoder.encode(inputaddress, StandardCharsets.UTF_8);
