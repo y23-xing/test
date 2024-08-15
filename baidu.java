@@ -14,7 +14,6 @@ public class baidu {
         ysy.getLatitude();
     }
 
-    // test：根据地址返回经纬度（ysy）
     @Test
     public void getLatitude() {
         String inputaddress = "南京 南京航空大学将军路校区";
